@@ -6,7 +6,7 @@ Motor Motor1;
 Motor Motor2;
 void _setup() {
   pinMode(2, OUTPUT);
-  Motor1.attach(21, 25, 26);
+  Motor1.attach(21, 26, 25);
 
   Motor2.attach(17, 13, 15);
 
